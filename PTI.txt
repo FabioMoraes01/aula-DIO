@@ -1,0 +1,42 @@
+A
+
+var alcool = parseFloat(prompt('Informe o preço do alcool:'))
+var gasolina = parseFloat(prompt('Informe o preço da gasolina:'))
+var preco_total = parseFloat(alcool/gasolina)
+alert(preco_total)
+
+if (preco_total > 0.7){
+  alert('Vale a pena a gasolina.')
+}
+else if (preco_total < 0.7){
+  alert('Vale a pena o álcool.')
+}
+else if (preco_total == 0.7){
+  alert('Tanto faz abastecer com gasolina ou álcool!')
+}
+
+
+B
+
+do{
+var alcool = parseFloat(prompt('Informe o preço do alcool:'))
+var gasolina = parseFloat(prompt('Informe o preço da gasolina:'))
+var preco_total = parseFloat(alcool/gasolina)
+alert(preco_total)
+
+if (preco_total > 0.7){
+  alert('Vale a pena a gasolina.')
+}
+else if (preco_total < 0.7){
+  alert('Vale a pena o álcool.')
+}
+else if (preco_total == 0.7){
+  alert('Tanto faz abastecer com gasolina ou álcool!')
+}
+repete = confirm("Deseja efetuar um novo cálculo?") 
+}
+while (repete == true){
+  
+}
+(repete == false)
+  alert('Programa encerrado.')
